@@ -1,0 +1,466 @@
+/* =Main Elements
+----------------------------------------------- */
+
+body {
+background-color: #afc7f7;
+background-image: url('images/bg.gif');
+background-repeat: repeat-x;
+color: #333;
+font-family: verdana, sans-serif;
+font-weight: normal;
+font-size: 11px;
+margin: 0px;
+padding: 0px;
+}
+
+body.popup {
+background-color: #fff;
+background-image: none;
+color: #333;
+font-family: verdana, sans-serif;
+font-weight: normal;
+font-size: 11px;
+margin: 20px;
+padding: 0px;
+}
+
+table {
+clear: both;
+margin: 0px auto;
+padding: 0px;
+}
+
+td.bottom {
+border-bottom: 5px solid #afc7f7;
+}
+
+.btn {
+margin: 0px;
+padding: 10px 0px 0px 0px;
+}
+
+.banner {
+margin: 10px 10px 0px 10px;
+padding: 0px;
+}
+
+.nav {
+margin: 0px 10px 0px 10px;
+padding: 0px;
+}
+
+td.pageContent {
+margin: 0px;
+padding: 20px 30px 20px 30px;
+text-align: left;
+}
+
+#steps {
+margin: 0px;
+padding: 0px 0px 15px 0px;
+}
+
+table.regularTable {
+margin: 0px;
+padding: 0px;
+}
+
+#footerTable {
+border-top: 1px solid #8caee2;
+margin: 10px auto;
+padding: 0px;
+width: 775px;
+}
+
+td.footer {
+color: #039;
+font-family: verdana, sans-serif;
+font-size: 10px;
+font-weight: normal;
+margin: 0px;
+padding: 5px 0px 20px 0px;
+text-align: left;
+width: 775px;
+}
+
+.intpic {
+margin: 0px 10px 10px 10px;
+padding: 0px;
+}
+
+td.yourOffices {
+margin: 0px;
+padding: 0px 10px 0px 10px;
+}
+
+.status {
+color: #039;
+font-family: arial, sans-serif;
+font-size: 11px;
+}
+
+.statusText {
+color: #c00;
+font-family: arial, sans-serif;
+font-size: 11px;
+}
+
+
+
+/* =Type Elements
+----------------------------------------------- */
+
+em {
+font-style: normal;
+font-weight: bold;
+}
+
+h1 {
+color: #9c0;
+font-family: arial, sans-serif;
+font-size: 21px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 15px 0px;
+}
+
+h2.title {
+color: #999;
+display: inline;
+font-family: arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+}
+
+p {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 15px 0px;
+}
+
+p.benefit {
+background: url('images/icon_bullet.gif') top left no-repeat;
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 10px 20px;
+}
+
+p.msg {
+color: #999;
+}
+
+
+
+
+/* =Find a Dentist Elements
+----------------------------------------------- */
+
+table.findDentist {
+background: #ffdead url('images/bg_finddentist.gif') top left no-repeat;
+margin: 10px 10px 0px 10px;
+padding: 0px;
+width: 494px;
+}
+
+table.findDentistAlt {
+/*margin: 0px;*/
+margin: 10px 10px 0px 10px;
+padding: 0px;
+/*width: 515px;*/
+width: 494px;
+}
+
+table.findDentist td.column1 {
+font-size: 11px;
+margin: 0px;
+/*padding: 20px 0px 0px 20px;*/
+padding: 15px 0px 0px 15px;
+}
+
+table.findDentist td.column2 {
+font-size: 11px;
+margin: 0px;
+/*padding: 20px 0px 0px 20px;*/
+padding: 15px 0px 0px 15px;
+}
+
+table.findDentistAlt td.column1 {
+font-size: 11px;
+margin: 0px;
+/*padding: 0px 20px 0px 0px;*/
+padding: 0px 15px 0px 0px;
+}
+
+
+table.findDentistAlt td.column2 {
+font-size: 11px;
+margin: 0px;
+/*padding: 0px 20px 0px 0px;*/
+padding: 0px 15px 0px 0px;
+}
+
+table.findDentist td.columnAlt {
+font-size: 11px;
+margin: 0px;
+/*padding: 20px 0px 0px 20px;*/
+padding: 15px 0px 0px 15px;
+}
+
+.findDentistSubhead {
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+
+
+
+
+/* =Home Quads Elements
+----------------------------------------------- */
+
+td.homeQuadsLeft {
+border-right: 6px solid #afc7f7;
+margin: 0px;
+padding: 0px;
+}
+
+td.homeQuadsRight {
+margin: 0px;
+padding: 0px;
+}
+
+.bannerEducationCenter {
+margin: 10px 10px 0px 10px;
+}
+
+.bannerPrimetime {
+margin: 9px 9px 0px 9px;
+}
+
+
+
+/* =Search Results Elements
+----------------------------------------------- */
+
+table#dentistResults {
+margin: 0px 0px 0px 0px;
+padding: 0px;
+width: 515px;
+}
+
+table#dentistResults td.title {
+margin: 0px;
+padding: 20px 0px 5px 0px;
+}
+
+table#dentistResults td.dentistName {
+border-bottom: 1px solid #ccc;
+font-size: 15px;
+margin: 0px;
+padding: 0px 0px 5px 0px;
+}
+
+table#dentistResults td.column1 {
+line-height: 15px;
+margin: 0px;
+/*padding: 10px 30px 0px 0px;*/
+padding: 10px 10px 0px 0px;
+text-align: left;
+}
+
+table#dentistResults td.column2 {
+line-height: 15px;
+margin: 0px;
+/*padding: 10px 30px 0px 0px;*/
+padding: 10px 0px 0px 0px;
+text-align: left;
+}
+
+table#dentistResults td.column3 {
+margin: 0px;
+padding: 10px 0px 0px 0px;
+text-align: right;
+}
+
+#approvedDentist {
+float: right;
+margin: 10px 0px 0px 0px;
+padding: 0px;
+position: relative;
+text-align: right;
+width: 108px;
+}
+
+#approvedDentist_on {
+display: none;
+float: right;
+left: -44px;
+margin: 0px;
+padding: 0px;
+position: absolute;
+text-align: right;
+top: -1px;
+width: 153px;
+z-index: 999;
+}
+
+
+
+
+/* =Login Elements
+----------------------------------------------- */
+
+td.loginBg {
+background: url('images/bg_login.gif') 10px 10px no-repeat;
+margin: 0px;
+padding: 0px 10px 0px 10px;
+}
+
+td.loginQuad {
+margin: 0px;
+padding: 10px;
+text-align: left;
+}
+
+.loginText {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 10px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+}
+
+
+
+
+/* =Form Elements
+----------------------------------------------- */
+
+input.btn {
+border: 0px;
+display: inline;
+margin: 0px 0px 0px 0px;
+padding: 2px 0px 0px 5px;
+}
+
+form {
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+input.text {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+font-weight: normal;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 130px;
+}
+
+input.textAlt {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+font-weight: normal;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+}
+
+select.selectionAlt {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+font-weight: normal;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+}
+
+.formLabel {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 9px;
+font-weight: bold;
+margin: 0px;
+padding: 0px 5px 0px 0px;
+text-align: right;
+}
+
+.formLabelAlt {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 11px;
+margin: 0px;
+padding: 0px 0px 5px 0px;
+}
+
+.subtext {
+color: #666;
+font-size: 10px;
+}
+
+
+
+
+
+/* =Password Elements
+----------------------------------------------- */
+
+td.passwordBg {
+background: url('images/bg_password.gif') 10px 10px no-repeat;
+margin: 0px;
+padding: 0px 0px 0px 10px;
+width: 425px;
+}
+
+#passwordTable {
+margin: 0px auto;
+padding: 80px 0px 0px 0px;
+}
+
+td.passwordImg {
+margin: 0px;
+padding: 10px 0px 0px 0px;
+width: 350px;
+}
+
+.passwordText {
+color: #333;
+font-family: verdana, sans-serif;
+font-size: 10px;
+font-weight: normal;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+/* =Links
+----------------------------------------------- */
+
+a:link {color: #039;}
+a:visited {color: #039;}
+a:hover {color: #f90;}
+a:active {color: #039;}
+
+a.linky:link {color: #333;}
+a.linky:visited {color: #333;}
+a.linky:hover {color: #f90;}
+a.linky:active {color: #333;}
+
+a.altlink:link {color: #f90;}
+a.altlink:visited {color: #f90;}
+a.altlink:hover {color: #039;}
+a.altlink:active {color: #f90;}

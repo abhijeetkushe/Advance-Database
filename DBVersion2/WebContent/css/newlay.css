@@ -1,0 +1,130 @@
+P
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+BODY
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+TBODY
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+HTML
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+TD
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+UL
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 6px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial;
+    LIST-STYLE-TYPE: disc
+}
+LI
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 10px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial;
+    LIST-STYLE-TYPE: disc
+}
+LI LI
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 10px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Arial;
+    LIST-STYLE-TYPE: circle
+}
+H2
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    COLOR: black;
+    PADDING-TOP: 0px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial
+}
+A
+{
+    FONT-SIZE: 10pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.clsSearch
+{
+    BACKGROUND-POSITION: left top;
+    PADDING-LEFT: 2px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url(searchboxBG.gif);
+    COLOR: #000000;
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-FAMILY: Arial, san-serif
+}
+.clsSiteName
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.clsHeaderContent
+{
+    BACKGROUND: url(aramarknetLogo.gif) #ffffff fixed no-repeat left top
+}
+.WarningBodyText
+{
+	font: 10pt Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#000000;
+}
+.LoginSpaceBG
+{
+	background: #000000;
+}	
+.LoginTitleBG
+	{
+	background: #000000;
+	}
+.LoginBodyBG
+	{
+	background: #ffffff;
+	}
+.LoginBodyText
+	{
+	font: 700 8pt Arial, Helvetica, sans-serif;
+	
+	} 	

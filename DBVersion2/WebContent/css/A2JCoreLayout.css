@@ -1,0 +1,115 @@
+/*Please do not modify the classes below as they are used to mantain consistency in the general layout of all the pages*/
+TABLE.VELayoutDefault			{border-collapse: collapse !important;border: 0px !important;padding:2px !important;border-spacing:2px !important;}
+TABLE.VELayoutDefault TD		{border-collapse: collapse; border: 0px;}
+TABLE.VELayoutPadded			{border-collapse: collapse !important;border: 0px !important;padding:3px !important;border-spacing:0px !important;}
+TABLE.VELayoutPadded TD			{border-collapse: collapse; border: 0px;}
+TABLE.VELayoutCompact			{border-collapse: collapse !important;border: 0px !important;padding:0px !important;border-spacing:0px !important;}
+TABLE.VELayoutCompact TD		{border-collapse: collapse; border: 0px;}
+TD.VELoginBufferLine            {background-color:#ffffff;}				
+
+DIV.VELayoutCenterAlign			{text-align:center;}
+DIV.VELayoutLeftAlign			{text-align:left;}
+
+TABLE.VELayoutCompactLogin				{border-collapse: collapse !important;border: 0px !important;padding:0px !important;border-spacing:0px !important;} 
+TABLE.VELayoutPaddedLogin				{border-collapse: collapse !important;border: 0px !important;padding:3px !important;border-spacing:0px !important;}
+TABLE.VELayoutCompactLoginPassword		{border-collapse: collapse !important;border: 0px !important;padding:0px !important;border-spacing:0px !important;}
+TABLE.LoginPasswordTable				{border-collapse: collapse;border: 1px solid #5C5C5C;margin-top: 5px; margin-bottom: 5px;}
+TABLE.LoginPasswordTable TD				{border: 0px; padding:3px;} 
+TABLE.VELayoutLoginPageLegend			{border-collapse: collapse !important;border: 0px !important;padding:0px !important;border-spacing:0px !important;}
+
+/* A2J generic table classes*/
+TABLE.VETable {border-collapse:collapse;border:1px solid #5C5C5C;width:400px;}
+TABLE.VETable TD	{border:1px solid #5C5C5C;padding:3px;font-size: 9pt;color: #000;}
+.VETableHead {color:#FFFFFF !important;font-family: arial, helvetica; font-size : 9pt;font-weight:bold;background-color:#888888;}
+.VETableSubHead {background-color: #C0C0C0;	color: #000000 !important;	font-size: 10pt; font-weight: 900; text-align: left;}
+
+/*A2J generic result list links*/
+A:link.VEResultsList		{color:#0F486C;font-size:11px;text-decoration:underline}
+A:visited.VEResultsList	{color:#0F486C;font-size:11px;text-decoration:underline}
+A:hover.VEResultsList	{color:#0F486C;font-size:11px;text-decoration:underline}	
+A:Active.VEResultsList	{color:#0F486C;font-size:11px;text-decoration:underline}
+
+/*A2J generic result list table*/
+.VEResultsList	{color:#000;font-size:11px;text-decoration:none;}
+
+/*A2J generic table no border for buttons*/
+table.venoborder td{border: 0px; padding:0px;}
+
+/* Schedule Table Classes */
+.ScheduleBorder {background-color:#A0A0A0;width:250;}
+TH.AvailableSlotHeader {background-color:#858585; color:#ffffff; font-weight:bold; text-align: center; vertiSchedule-align: top; font-size:11px;}
+TH.ScheduleDayHeader {background-color:#D3D3D3; color:#333333; font-weight: normal; text-align: center; vertiSchedule-align: top; font-size:11px;}
+td.AvailableSlot {background-color:#eaeaea; text-align: center; vertiSchedule-align: top; border: 0px solid #E0E0E0; font-size:11px;}
+td.AvailableSlotOn {background-color:#ffffff; text-align: center; vertiSchedule-align: top;  border: 0px solid #E0E0E0; font-size:11px;}
+td.NotAvailableSlot {background-color:#E0E0E0; text-align: center; vertiSchedule-align: top; border: 0px solid #E0E0E0; font-size:11px;}
+td.ScheduleTimeColumn {background-color:#eaeaea; text-align: right; vertiSchedule-align: top; border: 0px solid #E0E0E0; font-size:11px;}
+a.ScheduleArrow:link,a.ScheduleArrow:visited,a.ScheduleArrow:active {color:#ffffff; font-weight:bold; text-decoration:none}
+a.AvailableSlot:link,a.AvailableSlot:visited,a.AvailableSlot:active {color:#000000; text-decoration:none}
+
+
+TABLE.VEFeaturedJobsTable		{width:220px;}
+
+
+/* A2J generic table classes*/
+TABLE.VEChallengeTable {border-collapse:collapse;border:1px solid #5C5C5C;width:400px;}
+TABLE.VEChallengeTable TD	{border:1px solid #5C5C5C;padding:3px;font-size: 9pt;color: #000;}
+.VEChallengeTableHead {color:#FFFFFF !important;font-family: arial, helvetica; font-size : 9pt;font-weight:bold;background-color:#888888;}
+.VEChallengeTableSubHead {background-color: #C0C0C0;	color: #000000 !important;	font-size: 10pt; font-weight: 900; text-align: left;}
+
+
+/*HV Sort Links Classes - done per VETableHead to maintain uniformity*/
+A:link.HVSortLinks		{color:#FFFFFF;font-size:9pt;text-decoration:none}
+A:visited.HVSortLinks	{color:#FFFFFF;font-size:9pt;text-decoration:none}
+A:hover.HVSortLinks		{color:#FFFFFF;font-size:9pt;text-decoration:none}	
+A:Active.HVSortLinks	{color:#FFFFFF;font-size:9pt;text-decoration:none}
+
+/* A2J Profile table classes */
+.VEProfileTableHead {color:#FFFFFF !important;font-family: arial, helvetica; font-size : 9pt;font-weight:bold;background-color:#6B6B6B;}
+.VEProfileTableSubHead {color:#FFFFFF !important;font-family: arial, helvetica; font-size : 9pt;font-weight:bold;background-color:#888888;}
+.VEProfileTableValidationError {background-color: #ffffe1;background-repeat: no-repeat;background-position: top left;color: #666666;border: 1px solid #ff0000;width: 150px;}
+
+
+
+/*MyDashboard in HV*/
+TABLE.VEHVDashboardTable		{border-collapse:collapse; border: 1px solid #5C5C5C;margin-top:5px; width:100%}
+TABLE.VEHVDashboardTable TD, TH	{border: 1px solid #5C5C5C;padding:5px;}
+.VEHVDashboardTableHeader 		{ background-color: #C0C0C0;	color: #000000 !important;	font-size: 10pt; font-weight: bold; text-align: left;}
+.VEHVDashboardTableHeadItem 	{background-color: #D3D3D3;color: #000; font-size: 10pt; font-weight:bold; text-align: left;}
+
+.VEHVDashboardTableHead		    {background-color: #D3D3D3;color: #000; font-size: 10pt; font-weight:bold; text-align: left;}
+.VEHVDashboardTableList			{color:#000;font-size:11px;text-decoration:none;}
+.VEHVDashboardTableItem 		{ color:#000;font-size:11px;text-decoration:none;}
+
+
+A:link.VEHVDashboardTableAnchor			    {color:#0F486C;font-size:11px;text-decoration:underline}
+A:visited.VEHVDashboardTableAnchor			{color:#0F486C;font-size:11px;text-decoration:underline}
+A:hover.VEHVDashboardTableAnchor			{color:#0F486C;font-size:11px;text-decoration:underline}	
+A:Active.VEHVDashboardTableAnchor			{color:#0F486C;font-size:11px;text-decoration:underline}
+
+/*Text in the Search Results, Position Locations table*/	
+.VEHVDashboardPosition			{color:#000;font-size:11px;text-decoration:none;}	
+.VEHVDashboardLocation			{color:#000;font-size:11px;text-decoration:none;}	
+.VEHVDashboardAction			{color:#000;font-size:11px;text-decoration:none;}	
+
+
+
+TABLE.VEHVEditTable			{border-collapse:collapse; border: 1px solid #5C5C5C;margin-top:5px; width:100%}
+TABLE.VEHVEditTable TD, TH	{border: 1px solid #5C5C5C;padding:5px;}
+.VEHVEditTableHeader 		{ background-color: #C0C0C0;	color: #000000 !important;	font-size: 10pt; font-weight: bold; text-align: left;}
+.VEHVEditTableHeadItem 	{background-color: #D3D3D3;color: #000; font-size: 10pt; font-weight:bold; text-align: left;}
+
+.VEHVEditTableItem 		{ color:#000;font-size:11px;text-decoration:none;}
+.VEHVEditTableHead		 {background-color: #D3D3D3;color: #000; font-size: 10pt; font-weight:bold; text-align: left;}
+
+
+
+A:link.VEHVEditTableAnchor			 {color:#0F486C;font-size:11px;text-decoration:underline}
+A:visited.VEHVEditTableAnchor		 {color:#0F486C;font-size:11px;text-decoration:underline}
+A:hover.VEHVEditTableAnchor		  	 {color:#0F486C;font-size:11px;text-decoration:underline}
+A:Active.VEHVEditTableAnchor		 {color:#0F486C;font-size:11px;text-decoration:underline}
+/*Text in the Search Results, Position Locations table*/
+.VEEditTableList					{color:#000;font-size:11px;text-decoration:none;}
+.VEHVEditDate			{color:#000;font-size:11px;text-decoration:none;}	
+.VEHVEditTask			{color:#000;font-size:11px;text-decoration:none;}	
+
+.PageBreak {page-break-before:always}

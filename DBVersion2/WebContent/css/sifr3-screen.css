@@ -1,0 +1,60 @@
+
+@media screen {
+  .sIFR-flash {
+    visibility: visible !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sIFR-replaced, .sIFR-ignore {
+    visibility: visible !important;
+  }
+  
+  .sIFR-alternate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .sIFR-replaced div.sIFR-fixfocus {
+    margin: 0pt; 
+    padding: 0pt; 
+    overflow: auto; 
+    letter-spacing: 0px; 
+    float: none;
+  }
+}
+
+@media print {
+  .sIFR-flash {
+    display    : none !important;
+    height     : 0;
+    width      : 0;
+    position   : absolute;
+    overflow   : hidden;
+  }
+  
+  .sIFR-alternate {
+    visibility : visible !important;
+    display    : block   !important;
+    position   : static  !important;
+    left       : auto    !important;
+    top        : auto    !important;
+    width      : auto    !important;
+    height     : auto    !important;
+  }
+}
+
+@media screen {
+  .sIFR-active .front #col-main h1, .sIFR-active  .page-university #col-main h1 {
+    visibility: hidden;
+  }
+
+  .sIFR-active h1 {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,24 @@
+	
+A:link.MainNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:visited.MainNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Active.MainNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Hover.MainNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+.MainNavigation				{background-color:#365ebf;vertical-align:middle;}
+	
+A:link.JobDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:visited.JobDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Active.JobDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Hover.JobDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+.JobDetailNavigation				{background-color:#365ebf;vertical-align:middle;}
+	
+A:link.ButtonNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:visited.ButtonNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Active.ButtonNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Hover.ButtonNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+.ButtonNavigation				{background-color:#365ebf;vertical-align:middle;}
+	
+A:link.PositionDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:visited.PositionDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Active.PositionDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+A:Hover.PositionDetailNavigationLink	{font-family:Arial;font-size:12px;background-color:#365ebf;font-weight:bold; text-decoration:none;color:#FFFFFF;}
+.PositionDetailNavigation				{background-color:#365ebf;vertical-align:middle;}

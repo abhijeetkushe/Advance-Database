@@ -1,0 +1,79 @@
+.body {
+	
+}
+.style{
+	width: 1200px;
+}
+
+.oddrow {
+	background-color: #d6efff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 12px;
+	text-decoration: none;
+}
+.evenrow {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 12px;
+	text-decoration: none;
+}
+.fontspec{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+}
+.captionRow{
+	background-color: #3b5998;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-align: left;
+	line-height: 14px;
+	text-decoration: none;
+}
+.tableStyle{
+	background-color:#d6efff;
+}
+.tableborder {
+	background-color: #d6efff;
+	border: 1px solid #6e8cd2;
+}
+.tableboxborder{
+	border-top:inset;
+	border-bottom:inset;
+	border-right:inset;
+	border-left:inset;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-right-color:#aca899;
+	border-bottom-color:#aca899;
+}
+.reqTabledatath {
+	font-size: 11px;
+	color: #000;
+	background-color: #6e8cd2;
+	border-bottom: 1px solid #6e8cd2;
+	font-weight: bold;
+	line-height: 15px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.captionClass{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	text-align:left;
+	font-weight: bold;
+	line-height: 15px;
+}

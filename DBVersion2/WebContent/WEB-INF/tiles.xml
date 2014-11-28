@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	<tiles-definitions>
+	    <definition name="base.definition"
+	        template="/WEB-INF/jsps/layout.jsp">
+	        <put-attribute name="title" value="" />
+	        <put-attribute name="header" value="/WEB-INF/jsps/header.jsp" />
+			<put-attribute name="pageHeader" value="" />
+	        <!--<put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />-->
+	        <put-attribute name="body" value="" />
+	        <put-attribute name="footer" value="/WEB-INF/jsps/footer.jsp" />
+	    </definition>
+	 		
+		<definition name="loginUser" extends="base.definition">
+	        <put-attribute name="title" value="Login Page" />
+			<put-attribute name="pageHeader" value=""/>			
+	        <put-attribute name="body" value="/WEB-INF/jsps/loginUser.jsp" />
+	    </definition>
+		
+		<definition name="adminUser" extends="base.definition">
+	        <put-attribute name="title" value="Login Page" />
+			<put-attribute name="pageHeader" value=""/>			
+	        <put-attribute name="body" value="/WEB-INF/jsps/adminUser.jsp" />
+	    </definition>
+		
+		<definition name="newPatient" extends="base.definition">
+	        <put-attribute name="title" value="New Patient"/>
+			<put-attribute name="pageHeader" value=""/>			
+	        <put-attribute name="body" value="/WEB-INF/jsps/newPatient.jsp" />
+	    </definition>
+		
+		<definition name="updatePatient" extends="base.definition">
+	        <put-attribute name="title" value="Update Patient"/>
+			<put-attribute name="pageHeader" value="Update Patient"/>			
+	        <put-attribute name="body" value="/WEB-INF/jsps/updatePatient.jsp" />
+	    </definition>
+		
+		<definition name="registerSuccess" extends="base.definition">
+	        <put-attribute name="title" value="Register Success"/>
+			<put-attribute name="pageHeader" value="Register Success"/>			
+	        <put-attribute name="body" value="/WEB-INF/jsps/registerSuccess.jsp" />
+	    </definition>	
+		 
+	</tiles-definitions>
