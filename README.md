@@ -1,7 +1,7 @@
-Advance-Database
+Advance-Database (Team of 3)
 ================
 # Name - Mountain View Community Hospital 
-* Final Report - https://www.scribd.com/doc/248577831/Mountain-View-Communicy-Hospital-Report
+* Final Report - https://www.scribd.com/doc/248577831/Mountain-View-Communicy-Hospital-Report (Contains Snapshots)
 * Final Presentation - https://www.scribd.com/doc/248577580/Health-Care-Online-Systems-Presentation
 
 ## Database Features used
